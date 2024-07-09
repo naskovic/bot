@@ -1,0 +1,149 @@
+{
+  "name": "hair-salon-faq",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "salon-hours-01",
+      "utterances": [
+        "What are your salon's operating hours?",
+        "When are you open?",
+        "Tell me your business hours.",
+        "what is you working time?",
+        "when do you close?",
+        "are you open at night?"
+      ],
+      "answers": [
+        { "answer": "Our salon is open from 9:00 AM to 7:00 PM from Monday to Saturday, and from 10:00 AM to 5:00 PM on Sundays." }
+      ]
+    },
+    {
+      "intent": "book-appointment-02",
+      "utterances": [
+        "How can I book an appointment?",
+        "What's the process for booking an appointment?",
+        "Can I schedule a visit?",
+        "can I make an reservation",
+        "I want an appointment",
+        "can you make a reservation for me?"
+      ],
+      "answers": [
+        { "answer": "Booking an appointment is easy! You can do it in three convenient ways: online through our website, by calling us at (123) 456-7890, or by visiting our salon during operating hours." }
+      ]
+    },
+    {
+      "intent": "services-offered-03",
+      "utterances": [
+        "What services do you offer?",
+        "Tell me about your services.",
+        "What kind of treatments can I get?",
+        "what service do you have",
+        "do you have haircuts",
+        "do you have some menu or list of services"
+      ],
+      "answers": [
+        { "answer": "We offer a wide range of services, including haircuts, styling, coloring, highlights, extensions, and more. You can find a complete list of services on our website." }
+      ]
+    },
+    {
+      "intent": "new-client-consultation-04",
+      "utterances": [
+        "Do you offer consultations for new clients?",
+        "Can I schedule a consultation as a new client?",
+        "What's the process for a new client consultation?",
+        "I need consultation for my hair",
+        "can you help me with my hair"
+      ],
+      "answers": [
+        { "answer": "Yes, we offer complimentary consultations for new clients. During this time, you can discuss your hair goals and preferences with one of our experienced stylists." }
+      ]
+    },
+    {
+      "intent": "appointment-preparation-05",
+      "utterances": [
+        "How should I prepare for my appointment?",
+        "What do I need to do before coming in for my appointment?",
+        "Any tips for getting ready for my visit?"
+      ],
+      "answers": [
+        { "answer": "To get the most out of your appointment, please arrive with clean, dry hair. You can also bring any hairstyle inspiration pictures you may have in mind." }
+      ]
+    },
+    {
+      "intent": "cancellation-policy-06",
+      "utterances": [
+        "What is your cancellation policy?",
+        "How can I cancel my appointment?",
+        "Is there a fee for canceling?"
+      ],
+      "answers": [
+        { "answer": "We kindly request a 24-hour notice for cancellations or rescheduling. This allows us to accommodate other clients. Appointments canceled with less than 24 hours' notice may be subject to a cancellation fee." }
+      ]
+    },
+    {
+      "intent": "payment-methods-07",
+      "utterances": [
+        "How can I pay for my services?",
+        "What payment methods do you accept?",
+        "Can I use credit cards?",
+        "How can I pay",
+        "What are payment methods?"
+      ],
+      "answers": [
+        { "answer": "We accept various payment methods, including cash, credit/debit cards (Visa, Mastercard, and American Express), and mobile payment options like Apple Pay and Google Wallet. Additionally, ask about our loyalty program for discounts and rewards." }
+      ]
+    },
+    {
+      "intent": "recommended-products-08",
+      "utterances": [
+        "What hair products do you use and recommend?",
+        "Can you suggest hair care products for me?",
+        "Which brands do you recommend?"
+      ],
+      "answers": [
+        { "answer": "We exclusively use and recommend professional-grade hair care products from brands like L'Oréal, Redken, and Matrix. Our stylists can provide personalized product recommendations based on your hair type and needs." }
+      ]
+    },
+    {
+      "intent": "children-at-salon-09",
+      "utterances": [
+        "Can I bring my child with me to the salon?",
+        "Is it okay to have my kids with me during my appointment?",
+        "Do you have any accommodations for children?",
+        "I have a small kid?",
+        "can I bring kid at you?",
+        "can you cut hair on kids?"
+      ],
+      "answers": [
+        { "answer": "While we welcome clients of all ages, we recommend arranging childcare during your appointment to ensure a relaxing experience for both you and our other clients." }
+      ]
+    },
+    {
+      "intent": "24-7-chatbot-appointment-10",
+      "utterances": [
+        "Is there a 24/7 chatbot appointment service?",
+        "Can I schedule an appointment with a chatbot?",
+        "How can I book an appointment outside of business hours?"
+      ],
+      "answers": [
+        { "answer": "Yes, we have a 24/7 chatbot appointment service available on our website. Simply visit our website and click on the 'Chat with us' button to schedule an appointment anytime, day or night. Our chatbot will assist you in finding a suitable time slot based on your preferences." }
+      ]
+    },
+    {
+        "intent": "menu-intent-11",
+        "utterances": [
+            "Can you show me the menu of services and prices?",
+            "What are your services and their prices?",
+            "Tell me about your pricing.",
+            "what are the prices",
+            "how much cost haircut",
+            "how much cost styling",
+            "what is the price of coloring"
+        ],
+        "answers": [
+            {
+            "answer": "Sure! Here's a list of our services and their prices in euros:\n\n1. Haircut - €30\n2. Styling - €45\n3. Hair Coloring - €55\n4. Highlights - €65\n5. Hair Extensions - €75\n6. Hair Treatment - €40\n7. Special Occasion Styling - €60\n8. Bridal Package - €150\n\nPlease note that prices may vary depending on the specific service and any additional treatments or customizations you may choose."
+            }
+        ]
+    }
+  ]
+}

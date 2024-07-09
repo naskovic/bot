@@ -1,0 +1,1095 @@
+{
+  "name": "small-talk",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "_onboarding",
+      "utterances": ["hi", "hello", "hey", "how are you", "/start"],
+      "answers": [
+        {
+          "answer": {
+            "text": "Hi there! 🌟 I'm your friendly virtual assistant. I can assist you in booking appointments and provide answers to common questions. How can I assist you today?",
+            "delay": 0.05
+          }
+        },
+        {
+          "answer": {
+            "text": "Hey! 👋 You're now chatting with your virtual assistant. I can help you with appointment bookings and provide information you need. How may I assist you today?",
+            "delay": 0.5
+          }
+        },
+        {
+          "answer": {
+            "text": "Greetings! 👋 I'm here to help. As your virtual assistant, I can assist with appointment bookings and provide information on frequently asked questions. What can I do for you?",
+            "delay": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_options_buttons",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "You can also select one of these options for more help:",
+            "buttons": [
+              {
+                "title": "Booking",
+                "action": "/booking",
+                "icon": "",
+                "url": ""
+              },
+              {
+                "title": "Rescheduling",
+                "action": "/rescheduling",
+                "icon": "",
+                "url": ""
+              },
+              {
+                "title": "Canceling",
+                "action": "/canceling",
+                "icon": "",
+                "url": ""
+              }
+            ],
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "identity",
+      "utterances": [
+        "are you a bot or a human?",
+        "are you real or automated?",
+        "is this a real person?",
+        "bot or human?",
+        "who are you?",
+        "are you a human?",
+        "what are you?"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "I am an  chatbot designed to assist you.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I'm a chatbot. I'm capable of answering your questions and providing support.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I'm a chatbot, not a real person. But don't worry, I'm here to help you with anything you need!",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_book_with_data",
+      "utterances": [
+        "I need to book an appointment with [name] on [date] at [time]",
+        "I want to make an appointment on [date] at [time]",
+        "can I book an appointment on [date]",
+        "need an appointment on [date] and [time] on name [name]"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "how_are_you",
+      "utterances": [
+        "how are you?",
+        "how's it going?",
+        "how do you do?",
+        "are you doing well?"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "Thank you for asking! As an AI, I don't have feelings, but I'm here and ready to assist you with anything you need.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I appreciate your concern! Since I'm an AI chatbot, I don't have emotions, but I'm fully operational and at your service.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "As a chatbot, I don't have feelings, but I'm functioning perfectly and ready to help you with your questions.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I'm just a computer program, so I don't experience emotions. However, I'm here to assist you 24/7!",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "utterances": [
+        "goodbye",
+        "bye",
+        "see you later",
+        "take care",
+        "farewell"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "Goodbye! It was a pleasure assisting you. If you have more questions in the future, feel free to ask!",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Farewell! If you ever need help again, don't hesitate to reach out. Take care!",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Goodbye! Have a wonderful day ahead. If there's anything else I can do for you, just let me know.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Bye! Remember, I'm always here to help you whenever you need it. Take care and see you soon!",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_appointment_cancelled",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Your appointment has been cancelled",
+            "delay": 1
+          }
+        },
+         {
+          "answer": {
+            "text": "I have cancelled your appointment",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_required_email",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Could you please provide your email address?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Could you kindly provide us with your email ?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "What is your email?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Can you please give me your email?",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_required_phone",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Could you please share your phone 📱 with us?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Could you kindly provide us with your phone 📱?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "What is your phone 📱?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Can you please give me your phone 📱?",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "what_I_do",
+      "utterances": [
+        "how can you help me?",
+        "what you can do for me?",
+        "what is your mission",
+        "how can you help",
+        "can you help",
+        "can you assist"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "I can help you to book an appointment or to answer some question related to this service",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I can book an appointment for you, or if you have some question related to this service I can help you with that also",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "utterances": [
+        "thank you",
+        "you are the best",
+        "thank you so much",
+        "thanks"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "You're welcome! If there's anything else I can do for you, just let me know. 😉",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "You're welcome! Remember, I'm always here to help you 😉",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_change_the_date",
+      "utterances": [
+        "change the date",
+        "can I change the date",
+        "switch the date",
+        "can you change the date",
+        "can you help me change the date",
+        "can you assist me change the date",
+        "change the date for me"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "_change_the_staff",
+      "utterances": [
+        "change the staff member",
+        "change the service provider",
+        "change the professional",
+        "change the team members",
+        "change the service man"
+      ],
+      "answers": []
+    },
+    {
+      "intent": "_booking",
+      "utterances": [
+        "/booking",
+        "book an appointment",
+        "schedule a meeting",
+        "make a reservation",
+        "I need to book something",
+        "I want to book",
+        "make a booking",
+        "schedule an appointment?",
+        "I want to make a reservation",
+        "Need to set up a meeting",
+        "Book an appointment for me",
+        "I want to schedule an appointment",
+        "I want to make an appointment",
+        "can I book",
+        "I need an appointment",
+        "create appointment",
+        "book me",
+        "can I make an appointment for a kid",
+        "make me an reservation",
+        "can I make an reservation",
+        "can you reserve an appointment"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "You want to book an appointment? Great! 😊 To get started. ",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Want to schedule an appointment? I can help you with that. 😊 ",
+            "delay": 1
+          }
+        }
+      ],
+      "required_entities": [
+        {
+          "entity": "name",
+          "linked_intent": "_required_name",
+          "validation": "^[a-zA-Z\\s]+$"
+        },
+        {
+          "entity": "service",
+          "linked_intent": "_select_service",
+          "validation": "^[0-9a-fA-F]{24}$"
+        },
+        {
+          "entity": "staff",
+          "linked_intent": "_select_staff",
+          "validation": "^[0-9a-fA-F]{24}$"
+        },
+        {
+          "entity": "date",
+          "linked_intent": "_required_date"
+        },
+        {
+          "entity": "time",
+          "linked_intent": "_required_time",
+          "validation": "^(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+        },
+        {
+          "entity": "time_confirmed",
+          "linked_intent": "_time_confirmation",
+          "linked_entity": "time",
+          "validation": "^(true|false)$"
+        },
+        {
+          "entity": "email",
+          "linked_intent": "_required_email",
+          "validation": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        {
+          "entity": "phone",
+          "linked_intent": "_required_phone",
+          "validation": "^(\\+\\d{1,2})?\\s?\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}$"
+        }
+      ]
+    },
+    {
+      "intent": "_reschedule",
+      "utterances": [
+        "/rescheduling",
+        "I need to reschedule the appointment",
+        "I want to reschedule",
+        "Reschedule the appointment",
+        "Can I reschedule"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "Want to reschedule an appointment? I can help you with that. 😊 ",
+            "delay": 1
+          }
+        }
+      ],
+      "required_entities": [
+        {
+          "entity": "email",
+          "linked_intent": "_required_email",
+          "validation": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        {
+          "entity": "appointment",
+          "linked_intent": "_select_appointment"
+        }
+      ]
+    },
+    {
+      "intent": "_cancel_booking",
+      "utterances": [
+        "/canceling",
+        "I need to cancel the appointment",
+        "I want to decline the appointment",
+        "I want to delete the appointment",
+        "I won't be able to make it to my appointment",
+        "Can I cancel the appointment",
+        " I need to cancel my booking"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "Want to cancel an appointment? I can help you with that. 😊 ",
+            "delay": 1
+          }
+        }
+      ],
+      "required_entities": [
+        {
+          "entity": "email",
+          "linked_intent": "_required_email",
+          "validation": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+        },
+        {
+          "entity": "appointment",
+          "linked_intent": "_select_appointment"
+        }
+      ]
+    },
+    {
+      "intent": "_select_appointment",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Which appointment do you want to select?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Can you select one appointment please?",
+            "delay": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_no_available_slots",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Oops! 😔 I'm sorry, but it looks like there are no available slots for that date. Is there another day that works for you?",
+            "delay": 2
+          }
+        },
+        {
+          "answer": {
+            "text": "Oh no! 🙁 Unfortunately, there are no available slots for that date. How about checking some other available dates?",
+            "delay": 2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_selected_time_is_in_the_past",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Sorry 😕, that time is in the past. Please choose a different time or change date.",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Unfortunately 😕, that time is in the past. Please choose a different time or change date.",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_no_appointments",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Sorry 😕, there are no appointment for provided data?",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_time_available_in_working_hours",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Please select time between {open_time} and {close_time}",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Our working hours are from {open_time} to {close_time}. Feel free to choose a time that suits you best within this window 😉.",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_no_answer",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "I'm not quite sure I understand. 😟 Could you please rephrase your request?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "I didn't catch that, I'm sorry. 😕 Could you kindly rephrase your question or request?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "I'm having trouble grasping your message. 😔 Can you provide more details or rephrase it?",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_email_confirmation",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "{name}, is this your valid email address where you: {email} ?",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "{name}, is this email where you can confirm your booking: {email} ?",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_date_confirmation",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "{name}, can you confirm the date? {date}:",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "{name}, is this a date that you want to make an appointment? {date}:",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_time_confirmation",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "{name}, can you confirm the time? {time}",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "{name}, is this time that you want?: {time}",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_invalid_input",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "It seems the input was not valid 🤔. No worries! Could you please try again with the correct format?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "My apologies, the data you entered appears to be invalid 🤔. Could you try again?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I'm sorry, it looks like the input was not quite right 🤔. Would you mind giving it another shot?",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_thank_you_intent",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Thank you 🤗, {name}.",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_booking_data_reject",
+      "utterances": [
+        "stop booking",
+        "remove this info",
+        "start again",
+        "I do not want to book",
+        "I don't want to make an appointment",
+        "exit"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "Thank you for your time",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_booking_completed",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "We're almost done 🚀. Please check your inbox within the next 15 minutes and click the confirmation link to finalize your appointment.",
+            "delay": 2.5
+          }
+        },
+        {
+          "answer": {
+            "text": "Final step 🎉. Please check your inbox within the next 15 minutes and click the confirmation link to finalize your appointment.",
+            "delay": 2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_goodbay",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Have a nice day 😊",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_booking_thank_you",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Your booking is set 🎉. so please let me know if anything else you'd like?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Thank you that you made an appointment. Any other requests or questions? Happy to help! 😊",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_booking_rejected",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Ok, you can make an appointment when you are ready 😊. Can I do something else for you?",
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "Booking is stopped 😟, can I do something else for you?",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_why_",
+      "utterances": [
+        "why?",
+        "why do you need my phone",
+        "why do you need my email",
+        "why do you need my name",
+        "is phone necessary",
+        "is email required",
+        "is phone required",
+        "do you really need my phone and why"
+      ],
+      "answers": [
+        {
+          "answer": {
+            "text": "To secure a reservation for you, I require this data. Can you assist me in gathering the necessary information?",
+            "delay": 0.5
+          }
+        },
+        {
+          "answer": {
+            "text": "In order to make a reservation for you, I need to gather this data. Would you mind helping me with the collection of this information?",
+            "delay": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_required_name",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "May I have your name, please ❓",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "What is your name, please? ❓",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_select_service",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Could you please select a service ❓",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Please select a service ❓",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "May I ask you to select a service ❓",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_select_staff",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "{name}, Could you please select a stuff member ❓",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Please select a team member ❓",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "{name}, could you please pick a staff member ❓",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_required_date",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Please provide the date 📅?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "What date 📅 would you like to schedule your appointment for?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "When would you like to schedule your appointment? 📅",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_required_time",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Could you please chose a time 🕑 ?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Could you select a time 🕑 ?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "What time 🕑 you want to book?",
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Can you please select the time 🕑 ?",
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_email_confirmation_intent",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Could you confirm that this is your valid email: ",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 0.2
+          }
+        },
+        {
+          "answer": {
+            "text": "Is this your valid email:",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_final_booking_confirmation",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "You've chosen {date} and {time} for your appointment. Shall we proceed with this time slot?",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "I see that you'd like to schedule your appointment for {date} at {time}. Is that the time you prefer?",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        },
+        {
+          "answer": {
+            "text": "You've requested an appointment on {date} and indicated {time}. Does this time work for you for scheduling the appointment?",
+            "buttons": [
+              {
+                "title": "Yes",
+                "action": "yes"
+              },
+              {
+                "title": "No",
+                "action": "no"
+              }
+            ],
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_checking_if_time_available",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Let me check if this time is available. One moment, please.",
+            "delay": 0.8
+          }
+        },
+        {
+          "answer": {
+            "text": "Let me verify if this time is available.. One moment, please.",
+            "delay": 0.8
+          }
+        },
+        {
+          "answer": {
+            "text": "Let me find out if this time is available. Please wait a moment.",
+            "delay": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_time_available_slots",
+      "utterances": [],
+      "answers": [
+        {
+          "answer": {
+            "text": "Sorry, that time you selected is not available, but we have other available time slots:",
+            "delay": 1
+          }
+        }
+      ]
+    },
+    {
+      "intent": "_true",
+      "utterances": ["yes", "confirm", "it is", "valid", "valid"],
+      "answers": []
+    },
+    {
+      "intent": "_false",
+      "utterances": ["no", "false", "invalid", "this is not", "incorrect"],
+      "answers": []
+    }
+  ]
+}
